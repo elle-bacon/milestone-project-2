@@ -14,13 +14,7 @@ function FQA () {
         <h3>this is fqa</h3>
         <h4>Why chattkat</h4>
         <p>
-            who doesnt love cats? Meet our chatty cats! <div id="myImg"></div>
-            <script>
-                var img = document.createElement('img');
-                img.src = "/Users/cerinamalaluan/Projects/milestone-project-2-1/Assests/The-chattty-cats.png";
-                var src = document.getElementById("myImg);
-                src.appendChild(img);
-                 </script>
+            who doesnt love cats? Meet our chatty cats!
         </p>
         <h4>Who made this?</h4>
         <p>
