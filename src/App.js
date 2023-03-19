@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/homepage';
+import Header from './components/header';
 import LandingP from './components/landingpage';
-import Mycomments from './components/mycomments';
+import Mycomments from './components/mychats';
 import FQA from './components/fqa';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Router>
       <div>
+        <Header />
         <h1>ChattyKat</h1>
         <nav>
         <ul>

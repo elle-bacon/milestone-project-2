@@ -10,7 +10,7 @@ li {
   font-weight: 500;
   display: inline-block;
   width: 80px;
-  padding-right: 5em;
+  padding: 4em;
 }
 
 .App-link {

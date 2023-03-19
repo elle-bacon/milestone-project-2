@@ -1,11 +1,5 @@
 import React from "react"
-import logo from "/Users/cerinamalaluan/Projects/milestone-project-2-1/Assests/logo.png";
-console.log(logo); // /logo.png
 
-function Header() {
-  // hopefully our cat logo
-  return <img src={logo} alt="Logo" />;
-}
 
 function FQA () {
 
