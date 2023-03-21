@@ -4,7 +4,7 @@ function FQA () {
 
     return(
         <>
-        <h3>Welcome to FQA (Frequent Questions Asked.)</h3>
+        <h3>Welcome to FQA (Frequent Questions Asked.)</h3><b></b>
         <h4>Why ChattyKat?</h4>
         <p>
             Who doesnt love cats?
