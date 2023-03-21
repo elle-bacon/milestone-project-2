@@ -12,7 +12,6 @@ function App() {
       <Router>
       <div>
         <Header />
-        <h1>ChattyKat</h1>
         <nav>
         <ul>
           <li>
