@@ -5,6 +5,8 @@ import Header from './components/header';
 import LandingP from './components/landingpage';
 import Mycomments from './components/mychats';
 import FQA from './components/fqa';
+import Chats from './components/createchats';
+
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
             <Link className="FQA" to="/FQA">FQA</Link>
           </li> 
           <li>
+            <Link className="Createchats" to="/chats">Create Chats</Link>
+          </li>
+          <li>
             <Link className='Mycomments' to="/Mycomments">MyComments</Link>
           </li>
           <li>
@@ -35,6 +40,8 @@ function App() {
           <Route path="/FQA" element={<FQA />} />
           <Route path="/Mycomments" element={<Mycomments />} />
           <Route path="/LandingP" element={<LandingP />} />
+          <Route path="/Chats" element={<Chats />} />
+
         </Routes>
         </div>
       </Router>
