@@ -1,5 +1,13 @@
+
 .App {
   text-align: center;
+  
+}
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+margin-left: 100px;
+margin-right: 100px;
 }
 
 li {
@@ -13,6 +21,7 @@ li {
   padding: 4em;
 }
 
+<<<<<<< HEAD
 
 .KATCHATS{
   margin-top: 3em;
@@ -21,32 +30,30 @@ li {
 .App-link {
   color: 
   #189AB4;
+=======
+img{
+  display: inline;
+  max-width: 500px;
+ 
+>>>>>>> 8e4cedb9c09ce86ffe4383769475e7613d1be8bb
 }
 
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+nav{
+  font-family: 'Open Sans', sans-serif;
 }
 
-:root{
-  --chat-color: #189AB4;
+h2{
+  position: relative;
+  font-family: sans-serif;
 }
 
-body{
-  color: #0f1419;
-  -webkit-font-smoothing: antialised;
+label{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1rem;
+  
 }
 
-body, input, textarea, button{
-  font: 400 1rem "Roboto", san-serif;
-}
-
-button{
-  cursor: pointer;
-}
-
-a{
-  color: inherit;
+input{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 1rem;
 }
