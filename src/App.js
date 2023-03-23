@@ -7,7 +7,6 @@ import Mycomments from './components/mychats';
 import FQA from './components/fqa';
 import Chats from './components/createchats';
 
-
 function App() {
   return (
     <div className="App">

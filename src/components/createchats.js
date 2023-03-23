@@ -26,7 +26,7 @@ function Chats(props) {
         setChat({...chat,
             pic: chat.pic})
 
-            axios.post('http://localhost:5000/chats/add', chat)
+            axios.post('http://localhost:5001/chats/add', chat)
             .then(res => console.log(res.data));
 
             console.log(chat)
@@ -47,10 +47,17 @@ function Chats(props) {
                 </div>
                 <div>
                     <label>Your Cat:</label>
-                    <input type="text"
+                    <select 
                         required
                         value={chat.pic}
-                        onChange={onChangePic}/>
+                        onChange={onChangePic}
+                        >
+                            <option>🥰</option>
+                            <option> 👿</option>
+                            <option>😠 </option>
+                            <option>😭</option>
+
+                        </select>
                 </div>
                 <div>
                     <input type="submit" value="Create new Chat"/>

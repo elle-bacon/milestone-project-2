@@ -2,21 +2,23 @@ import React, { useState, useEffect } from "react"
 import axios from "axios"
 
 function Chats(props) {
-    return(
+    return (
         <>
-        <div>{props.chat.katty}</div>
-        <span>{props.chat.pic}</span>
+            <div className="KATCHATS">
+                <span>{props.chat.pic}</span>
+                <span>{props.chat.katty}</span>
+            </div>
         </>
     )
 }
 
-function Homepage (props) {
-    let [chats, setChats] = useState ({
+function Homepage(props) {
+    let [chats, setChats] = useState({
         chats: [],
     })
 
     useEffect(() => {
-        axios.get('http://localhost:5000/chats/')
+        axios.get('http://localhost:5001/chats/')
             .then(response => {
                 setChats({
                     ...chats,
@@ -30,16 +32,16 @@ function Homepage (props) {
 
     const chatsList = () => {
         return chats.chats.map(currentchat => {
-            return <Chats chat={currentchat}  key= {currentchat._id}/>
+            return <Chats chat={currentchat} key={currentchat._id} />
         })
     }
 
-    return(
+    return (
         <>
-        <h3>Homepage</h3>
-        <div>
-            {chatsList()}
-        </div>
+            <h3>Homepage</h3>
+            <div>
+                {chatsList()}
+            </div>
         </>
     )
 }
