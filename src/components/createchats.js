@@ -26,7 +26,7 @@ function Chats(props) {
         setChat({...chat,
             pic: chat.pic})
 
-            axios.post('http://localhost:5000/chats/add', chat)
+            axios.post('http://localhost:5001/chats/add', chat)
             .then(res => console.log(res.data));
 
             console.log(chat)

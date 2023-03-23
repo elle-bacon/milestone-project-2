@@ -16,7 +16,7 @@ function Homepage (props) {
     })
 
     useEffect(() => {
-        axios.get('http://localhost:5000/chats/')
+        axios.get('http://localhost:5001/chats/')
             .then(response => {
                 setChats({
                     ...chats,
