@@ -2,21 +2,22 @@ import React, { useState } from "react";
 import axios from "axios";
 
 function Chats(props) {
+   //useState,
     let [chat, setChat] = useState({
         katty: '',
         pic: ''
     })
-
+    //changes the katty value on the chat
     const onChangeKatty = (e) => {
         setChat({ ...chat, 
         katty: e.target.value})
     }
-
+    //changes thepic vlaue on chat
     const onChangePic = (e) => {
         setChat({ ...chat,
         pic: e.target.value})
     }
-
+// lets you submit by changing the value on the stat(chat), then it posts it on the database with acios then takes you to the homepage
     const onSubmit = (e) => {
         e.preventDefault();
 

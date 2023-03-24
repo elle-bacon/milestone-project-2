@@ -4,6 +4,8 @@ function Buttoncreate () {
 
 
   const  handleClick  = () => {
+    
+    //takes you to the create chats page
     window.location = "/chats"
 
     }
