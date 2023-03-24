@@ -1,13 +1,13 @@
-
 .App {
   text-align: center;
-  
+
 }
+
 body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-margin-left: 100px;
-margin-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 li {
@@ -22,32 +22,32 @@ li {
 }
 
 
-.KATCHATS{
+.KATCHATS {
   margin-top: 3em;
 }
 
 .App-link {
-  color: 
-  #189AB4;
+  color:
+    #189AB4;
 }
 
-nav{
+nav {
   font-family: 'Open Sans', sans-serif;
-  
+
 }
 
-h2{
+h2 {
   position: relative;
   font-family: sans-serif;
 }
 
-label{
+label {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 1rem;
-  
+
 }
 
-input{
+input {
   font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
 }
@@ -62,4 +62,26 @@ img {
   margin-left: -20em;
   height: 44em;
   margin-top: -5em;
+
 }
+
+.headerdiv {
+  margin-top: -6em;
+}
+
+
+.KATCHATS {
+  
+  font-family: cursive;
+  border: 2px solid black;
+  font-size: larger;
+  padding: 1em;
+  width: 40em;
+  margin-left: 30em;
+}
+
+button {
+  position: sticky;
+  top : 20px;
+}
+
