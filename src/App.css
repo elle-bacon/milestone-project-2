@@ -21,7 +21,6 @@ li {
   padding: 4em;
 }
 
-<<<<<<< HEAD
 
 .KATCHATS{
   margin-top: 3em;
@@ -30,16 +29,11 @@ li {
 .App-link {
   color: 
   #189AB4;
-=======
-img{
-  display: inline;
-  max-width: 500px;
- 
->>>>>>> 8e4cedb9c09ce86ffe4383769475e7613d1be8bb
 }
 
 nav{
   font-family: 'Open Sans', sans-serif;
+  
 }
 
 h2{
@@ -56,4 +50,16 @@ label{
 input{
   font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
+}
+
+img {
+  margin-bottom: -23em;
+  width: 40em;
+  height: 40em;
+}
+
+.chattykat {
+  margin-left: -20em;
+  height: 44em;
+  margin-top: -5em;
 }
