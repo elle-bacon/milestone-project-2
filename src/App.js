@@ -5,7 +5,6 @@ import Header from './components/header';
 import LandingP from './components/landingpage';
 import Mycomments from './components/mychats';
 import FQA from './components/fqa';
-import Chats from './components/createchats';
 import Buttoncreate from './components/button';
 
 function App() {
