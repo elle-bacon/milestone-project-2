@@ -51,10 +51,8 @@ function Chats(props) {
                     <select 
                         required
                         value={chat.pic}
-                        onChange={onChangePic}
-                        >
-                            <option>🥰 </option>
-                        
+                        onChange={onChangePic}>
+                            
                             <option></option>
                             <option>🥰</option>
                             <option>👿</option>

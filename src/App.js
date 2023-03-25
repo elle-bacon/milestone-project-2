@@ -6,7 +6,6 @@ import LandingP from './components/landingpage';
 import FQA from './components/fqa';
 import Chats from './components/createchats';
 
-
 function App() {
   return (
     <div className="App">
