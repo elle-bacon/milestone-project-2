@@ -2,6 +2,22 @@ import React, { useState, useEffect } from "react"
 import axios from "axios"
 import Buttoncreate from "./button"
 
+window. addEventListener("load", function(){
+    setTimeout (
+    function open(event){
+    document.querySelector (" ‚popup").style.
+    display = "block";
+},
+    2000
+ 
+    )
+    });
+    document.querySelector ("#close") .addEventListener
+    ("click", function () {
+    document.querySelector (" popup") .style.display =
+    "none";
+    });
+
 function Chats(props) {
     return (
         <>
