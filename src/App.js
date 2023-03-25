@@ -3,9 +3,7 @@ import './App.css';
 import Homepage from './components/homepage';
 import Header from './components/header';
 import LandingP from './components/landingpage';
-import Mycomments from './components/mychats';
 import FQA from './components/fqa';
-import Buttoncreate from './components/button';
 
 function App() {
   return (
@@ -25,9 +23,6 @@ function App() {
             <Link className="Createchats" to="/chats">Create Chats</Link>
           </li>
           <li>
-            <Link className='Mycomments' to="/Mycomments">MyComments</Link>
-          </li>
-          <li>
             <Link className="LandingP" to="/LandingP">LandingP</Link>
           </li>
         </ul>
@@ -39,7 +34,7 @@ function App() {
             <Route path="/FQA" element={<FQA />} />
             <Route path="/Mycomments" element={<Mycomments />} />
             <Route path="/LandingP" element={<LandingP />} />
-            <Route path="/Chats" element={<Chats />} />
+
 
           </Routes>
         </div>
