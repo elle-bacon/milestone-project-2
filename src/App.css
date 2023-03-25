@@ -8,6 +8,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin-left: 100px;
   margin-right: 100px;
+  background-color:#d8ecf3;
 }
 
 li {
@@ -83,5 +84,5 @@ img {
 button {
   position: sticky;
   top : 20px;
+  background-color:#d8ecf3;
 }
-
