@@ -53,7 +53,6 @@ function Chats(props) {
                         value={chat.pic}
                         onChange={onChangePic}
                         >
-                        >                            
                             <option></option>
                             <option>🥰</option>
                             <option>👿</option>
