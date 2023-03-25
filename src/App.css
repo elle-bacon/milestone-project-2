@@ -13,6 +13,7 @@ body {
 
 }
 
+
 li {
   text-align: center;
   text-decoration: none;
@@ -35,14 +36,11 @@ li {
 }
 
 img{
-  display: inline;
-  max-width: 500px;
+  margin-bottom: -23em;
+  width: 40em;
+  height: 40em;
 }
 
-/* img {
-  display: inline;
-  max-width: 500px;
-} */
 
 nav {
   font-family: 'Open Sans', sans-serif;
