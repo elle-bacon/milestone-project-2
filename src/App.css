@@ -1,19 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .App {
-  text-align:center;
-  color: black;
+  text-align: center;
   
 }
+
 body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 margin-left: 100px;
 margin-right: 100px;
-color: black;
 }
 
 li {
@@ -28,39 +23,39 @@ li {
 }
 
 
-.KATCHATS{
+.KATCHATS {
   margin-top: 3em;
 }
 
 .App-link {
   color: 
   #189AB4;
-}
+=======
 img{
   display: inline;
   max-width: 500px;
-
+ 
+>>>>>>> 8e4cedb9c09ce86ffe4383769475e7613d1be8bb
 }
 
-nav{
+nav {
   font-family: 'Open Sans', sans-serif;
+
 }
 
-h2{
+h2 {
   position: relative;
   font-family: sans-serif;
   color: black;
 }
 
-label{
+label {
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 3rem;
-  color: black;
-  text-align: center;
+  margin-bottom: 1rem;
   
 }
 
-input{
+input {
   font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
   margin-top: 1rem;
@@ -72,4 +67,38 @@ input{
     font-size: 16px;
     cursor: pointer;
   
+}
+
+img {
+  margin-bottom: -23em;
+  width: 40em;
+  height: 40em;
+}
+
+.chattykat {
+  margin-left: -20em;
+  height: 44em;
+  margin-top: -5em;
+
+}
+
+.headerdiv {
+  margin-top: -6em;
+}
+
+
+.KATCHATS {
+  
+  font-family: cursive;
+  border: 2px solid black;
+  font-size: larger;
+  padding: 1em;
+  width: 40em;
+  margin-left: 30em;
+}
+
+button {
+  position: sticky;
+  top : 20px;
+  background-color:#d8ecf3;
 }
