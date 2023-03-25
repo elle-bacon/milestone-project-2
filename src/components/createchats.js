@@ -52,9 +52,11 @@ function Chats(props) {
                         required
                         value={chat.pic}
                         onChange={onChangePic}
+                        >
                         >                            
                             <option></option>
                             <option>🥰</option>
+                            <option>👿</option>
                             <option>👿</option>
                             <option>👿</option>
                             <option>😠 </option>
