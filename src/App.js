@@ -26,9 +26,6 @@ function App() {
               </li>
 
               <li>
-                <Link className='Mycomments' to="/Mycomments">MyComments</Link>
-              </li>
-              <li>
                 <Link className="LandingP" to="/LandingP">LandingP</Link>
               </li>
             </ul>
@@ -41,7 +38,6 @@ function App() {
             <Route path="/Mycomments" element={<Mycomments />} />
             <Route path="/LandingP" element={<LandingP />} />
             <Route path="/Chats" element={<Chats />} />
-
           </Routes>
         </div>
       </Router>

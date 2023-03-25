@@ -55,7 +55,7 @@ function Chats(props) {
                         >   
                             <option></option>
                             <option>🥰</option>
-                            <option> 👿</option>
+                            <option>👿</option>
                             <option>😠 </option>
                             <option>😭</option>
 
