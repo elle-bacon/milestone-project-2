@@ -51,17 +51,18 @@ function Chats(props) {
                     <select 
                         required
                         value={chat.pic}
-                        onChange={onChangePic}>
-                            
+                        onChange={onChangePic}
+                        >                            
                             <option></option>
                             <option>🥰</option>
+                            <option>👿</option>
                             <option>👿</option>
                             <option>😠 </option>
                             <option>😭</option>
 
                         </select>
                 </div>
-                <div id="button">
+                <div id="chatbutton">
 
                     <input type="submit" value="Create new Chat"/>
 

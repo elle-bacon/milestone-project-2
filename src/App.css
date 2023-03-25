@@ -61,7 +61,7 @@ label {
   
 }
 
-input {
+#chatbutton {
   font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
   color: #189AB4;
