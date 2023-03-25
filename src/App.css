@@ -9,6 +9,7 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   background-color:#d8ecf3;
+
 }
 
 li {
@@ -32,6 +33,11 @@ li {
     #189AB4;
 }
 
+/* img {
+  display: inline;
+  max-width: 500px;
+} */
+
 nav {
   font-family: 'Open Sans', sans-serif;
 
@@ -40,6 +46,7 @@ nav {
 h2 {
   position: relative;
   font-family: sans-serif;
+  color: black;
 }
 
 label {
@@ -51,6 +58,15 @@ label {
 input {
   font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
+  margin-top: 1rem;
+  color: #189AB4;
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: center;
+  font-size: 16px;
+  cursor: pointer;
+
 }
 
 img {
@@ -72,7 +88,7 @@ img {
 
 
 .KATCHATS {
-  
+
   font-family: cursive;
   border: 2px solid black;
   font-size: larger;
@@ -83,6 +99,9 @@ img {
 
 button {
   position: sticky;
-  top : 20px;
-  
+  top: 20px;
+}
+
+button:hover {
+  cursor:pointer;
 }

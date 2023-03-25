@@ -6,19 +6,19 @@ function FQA() {
 
     return (
         <>
-            <h3>Welcome to FQA (Frequent Questions Asked.)</h3>
-            <h4>Why ChattyKat?</h4>
-            <p>
-                Who doesnt love cats?
-            </p>
-            <h4>Who made this?</h4>
-            <p>
-                Emily, Daniel and Cerina created this as a milestone project for a software development bootcamp!
-            </p>
-            <h4>What does this website do?</h4>
-            <p>
-                This website lets you comment ideas anonymously to your community.
-            </p>
+        <h3>Welcome to FQA (Frequent Questions Asked.)</h3>
+        <h4>Why ChattyKat?</h4>
+        <p>
+            Who doesnt love cats?
+        </p>
+        <h4>Who made this?</h4>
+        <p>
+            Emily, Daniel and Cerina created this as a milestone project for a software development bootcamp!
+        </p>
+        <h4>What does this website do?</h4>
+        <p>
+            This website lets you comment ideas anonymously to your community.
+    </p>
 
             <div>
                 <h3>Questions, Comments, Concerns, Suggestions?  Let us know!</h3>

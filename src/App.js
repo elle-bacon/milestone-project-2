@@ -3,10 +3,9 @@ import './App.css';
 import Homepage from './components/homepage';
 import Header from './components/header';
 import LandingP from './components/landingpage';
-import Mycomments from './components/mychats';
 import FQA from './components/fqa';
 import Chats from './components/createchats';
-import Buttoncreate from './components/button';
+
 
 function App() {
   return (
@@ -35,7 +34,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/FQA" element={<FQA />} />
-            <Route path="/Mycomments" element={<Mycomments />} />
             <Route path="/LandingP" element={<LandingP />} />
             <Route path="/Chats" element={<Chats />} />
           </Routes>
