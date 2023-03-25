@@ -4,6 +4,7 @@ import Homepage from './components/homepage';
 import Header from './components/header';
 import LandingP from './components/landingpage';
 import FQA from './components/fqa';
+import Chats from './components/createchats';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/FQA" element={<FQA />} />
-            <Route path="/Mycomments" element={<Mycomments />} />
+            <Route path="/Chats" element={<Chats />} />
             <Route path="/LandingP" element={<LandingP />} />
 
 
