@@ -7,9 +7,11 @@ function FQA () {
     return(
         <>
         <h3>Welcome to FQA (Frequent Questions Asked.)</h3>
-        <h4>Why ChattyKat?</h4>
+       <h4>Why ChattyKat?</h4>
         <p>
             Who doesnt love cats?
+    
+       
         </p>
         <h4>Who made this?</h4>
         <p>

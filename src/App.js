@@ -16,16 +16,13 @@ function App() {
         <nav>
         <ul>
           <li>
-            <Link className="Homepage" to='/'>Homepage</Link>
+            <Link className="Homepage" to='/'>Homepage 🏠</Link>
           </li>
           <li>
-            <Link className="FQA" to="/FQA">FQA</Link>
+            <Link className="FQA" to="/FQA">FQA </Link>
           </li> 
           <li>
-            <Link className="Createchats" to="/chats">Create Chats</Link>
-          </li>
-          <li>
-            <Link className='Mycomments' to="/Mycomments">MyComments</Link>
+            <Link className="Createchats" to="/chats">Create Chats 💬</Link>
           </li>
           <li>
             <Link className="LandingP" to="/LandingP">LandingP</Link>
