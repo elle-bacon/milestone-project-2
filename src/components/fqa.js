@@ -17,8 +17,9 @@ function FQA() {
         </p>
         <h4>What does this website do?</h4>
         <p>
-            This website lets you comment ideas anonymously to your community.
+            This website lets you comment ideas anonymously to your community you ChattyKat! <br></br>
     </p>
+    <br></br>
 
             <div>
                 <h3>Questions, Comments, Concerns, Suggestions?  Let us know!</h3>
@@ -36,4 +37,5 @@ function FQA() {
         </>
     )
 }
+
 export default FQA
