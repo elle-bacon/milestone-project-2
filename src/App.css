@@ -49,9 +49,17 @@ label {
 
 }
 
-input {
+#chatbutton {
   font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
+  color:  #189AB4;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 16px;
+    cursor: pointer;
+  
 }
 
 img {
@@ -81,11 +89,14 @@ img {
   padding: 1em;
   width: 40em;
   margin-left: 30em;
-  background-color:#e6ffff;
 }
 
 button {
   position: sticky;
   top : 20px;
-  background-color:#ffcce6
+  background-color:#d8ecf3;
+}
+
+button:hover {
+  cursor:pointer;
 }
