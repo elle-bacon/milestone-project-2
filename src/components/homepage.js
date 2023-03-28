@@ -18,9 +18,6 @@ import Buttoncreate from "./button"
 //     "none";
 //     }); 
 
-
-  
-
 function Chats(props) {
     
     return (

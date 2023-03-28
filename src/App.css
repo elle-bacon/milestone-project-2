@@ -149,9 +149,9 @@ img {
 .KATCHATS {
   
   font-family: cursive;
-  border: 2px solid black;
+  border: 1px solid black;
   font-size: larger;
-  padding: 1em;
+  padding: .5em;
   width: 40em;
 align-self: center;
 }
